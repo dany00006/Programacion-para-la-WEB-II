@@ -1,0 +1,68 @@
+
+.usuario-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+}
+
+.usuario-card:hover {
+    transform: scale(1.02);
+}
+
+.usuairo-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 30px;
+
+
+}
+
+
+.usuario-info  {
+flex-grow: 1;
+
+}
+
+.usuario-info h3 {
+
+margin: 0 0 10px 0;
+color:blueviolet
+font: size 0.9rem;
+
+}
+
+.usuario-badget {
+padding: 4px 10px;
+border-radius: 20px;
+font-size: 0,8rem;
+font-weight: bold;
+
+}
+
+.badge-activo { background: #000; color: #000; }
+.badge-inactivo {background: #000; color:#000 ; }
+
+
+
+.usuario-acciones button {
+background: #000;
+border: none;
+padding: 8xp 15xp;
+border-radius: 6xp;
+cursos: pointer;
+font-weight: 500;
+color:beige;
+
+}
+
+
+
+
+
